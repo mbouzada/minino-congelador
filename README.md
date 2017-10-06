@@ -1,2 +1,2 @@
 # minino-congelador
-Permite conxelar o escritorio e límpao após (ou antes) unha sesión de usuario
+Permite conxelar só a configuración dun usuario ou todo o usuario, limpandoo após (ou antes) do inicio dunha sesión de usuario.
