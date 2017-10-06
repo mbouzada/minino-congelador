@@ -1,0 +1,26 @@
+Usa sólo el par que creas conveniente:
+
+El archivo fijausuario va con 51x11restaurausuario y sirven para congelar un usuario completo
+
+y
+
+El archivo fijaconfig va con 51x11restauraconfig y sirven para congelar únicamente la configuración dejando intactos los datos como documentos o imágenes del usuario.
+
+
+INSTRUCCIONES:
+
+Edita el 51x11restaura... que hayas elegido para añadirle el usuario o usuarios a congelar.
+
+Pon el fijador en /usr/local/bin
+y el restaurador en /etc/X11/Xsession.d/
+
+A continuación lanza el fijador para guardar la copia actual, suponiendo que quieres fijar únicamente la configuración del usuario minino, lanzarías:
+
+sudo fijausuario minino
+
+Y ya está. Si haces cambios en la configuración, se restaurarán al reiniciar el equipo o al reiniciar la sesión. Por ejemplo, si algún alumno cambió los paneles o el fondo de pantalla.
+
+El día que quieras hacer cambios, únicamente tendrías que lanzar de nuevo el fijador (el comando anterior) para que se queden guardados.
+
+El día que quieras liberar al usuario definitivamente de la congelación, editas el 51x11restaura... y le pones un # al principio de línea para que se ignore.
+

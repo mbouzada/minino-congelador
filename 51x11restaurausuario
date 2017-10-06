@@ -1,0 +1,5 @@
+# Añadir tantas líneas como escritorios queramos restaurar
+# rsync -va --delete /srv/USUARIO/ /home/USUARIO/
+
+rsync -va --delete /srv/minino/ /home/minino/
+
